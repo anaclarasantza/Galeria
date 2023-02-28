@@ -1,0 +1,28 @@
+.button{
+    position: relative;
+    color: #0000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.button:hover{
+    transform: scale(1.5);
+}
+
+#prev-button{
+    top: 50%;
+    left: 50%;
+    width: 1%;
+}
+
+#next-button{
+    top: 50%;
+    right: 10%;
+    width: 1%;
+}
